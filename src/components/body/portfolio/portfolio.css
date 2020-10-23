@@ -1,0 +1,11 @@
+.portfolio-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-auto-columns: 300px 300px;
+    grid-auto-rows: auto;
+}
+
+.portfolio-element {
+    text-align: center;
+    height: 400px;
+}
