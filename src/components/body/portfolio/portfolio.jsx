@@ -1,16 +1,14 @@
+import PortfolioItem from './portfolio-item/portfolio-item'
 import './portfolio.css'
 
 function Portfolio () {
     return (
-        <section>
             <div className="portfolio-container">
-                <div className="portfolio-element">element 1</div>
-                <div className="portfolio-element">element 2</div>
-                <div className="portfolio-element">element 3</div>
-                <div className="portfolio-element">element 4</div>
-                <div className="portfolio-element">element 5</div>
+                <div className="portfolio-element"><PortfolioItem title={'title 1'}/></div>
+                <div className="portfolio-element"><PortfolioItem title={'title 2'}/></div>
+                <div className="portfolio-element"><PortfolioItem title={'title 3'}/></div>
+                <div className="portfolio-element"><PortfolioItem title={'title 4'}/></div>
             </div>
-        </section>
     );
 }
 

@@ -1,4 +1,4 @@
-import logo from './toolbar-image.jpg';
+import logo from './../../../assets/toolbar-image.jpg';
 import './logo.css';
 
 function Logo () {
