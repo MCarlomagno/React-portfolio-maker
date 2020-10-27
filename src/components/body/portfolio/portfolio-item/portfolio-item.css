@@ -9,12 +9,27 @@
 }
 
 .portfolio-item-title {
+    height: 10%;
     font-weight: bold;
+    max-width: 400px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 10px;
 }
 
 .portfolio-item-description {
+    height: 15%;
     font-size: 15px;
     text-align: left;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
+
+@media (max-width: 500px) { 
+    .portfolio-item-title {
+        white-space: normal;
+    }
+ }
+
